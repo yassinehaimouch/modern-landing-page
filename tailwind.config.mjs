@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-poppins)"],
+        mono: ["var(--font-manrope)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
